@@ -32,7 +32,13 @@ public class Main {
             System.out.println("Total Weight: " + backpack.getWeight());
             backpack.displayInfo();
 
-            stick.add(bottle);
+            Bag emptyBag = new Bag("A Bag, but empty", .11);
+            emptyBag.getWeight();
+            emptyBag.displayInfo();
+
+            backpack.remove(rope);
+            System.out.println("Total Weight: " + backpack.getWeight());
+
         } catch(Exception e){
             System.out.println(e);
         }

@@ -9,3 +9,6 @@ We created the compnent for our tree structure the bag and gave it methods to pr
 
 Phase 3-
 We created nested bags and items to show the recursive traversal working. A weightless bag should be able to be created with a weight value of 0 and it work fine with this structure, no further modification should be needed. This supports the open/closed Principle by gives a set base that is unchanging and closed to modification and allowing each component or leave to extend it instead.
+
+Phase 4-
+Tested with empty bag and removing items, didn't seem to get any bugs.
